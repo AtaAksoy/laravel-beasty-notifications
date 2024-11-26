@@ -23,18 +23,12 @@ class BeastyNotificationsServiceProvider extends ServiceProvider
     {
         // Publish assets
         $this->publishes([
-            __DIR__.'/../../resources/js' => public_path('vendor/my-package/js'),
-            __DIR__.'/../../resources/css' => public_path('vendor/my-package/css'),
+            __DIR__.'/../../resources/js' => public_path('ataaaksoy/laravel-beasty-notifications/js'),
+            __DIR__.'/../../resources/css' => public_path('ataaaksoy/laravel-beasty-notifications/css'),
         ], 'my-package-assets');
 
-        // Load views
-        $this->loadViewsFrom(__DIR__.'/../../resources/views', 'my-package');
-
-        // Load routes
-        $this->loadRoutesFrom(__DIR__.'/../../routes/web.php');
-
         // Register Blade components
-        Blade::component('my-package::components.my-component', 'my-component');
+        Blade::component('laravel-beasty-notifications::components.notification-container', 'notification-container');
     }
 
 }
