@@ -15,7 +15,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelBeastyNotifications\\Providers\\BeastyNotificationsServiceProvider"
+                "Ataaaksoy\\LaravelBeastyNotifications\\Providers\\BeastyNotificationsServiceProvider"
             ]
         }
     },
