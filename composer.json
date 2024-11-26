@@ -1,0 +1,23 @@
+{
+    "name": "ataaaksoy/laravel-beasty-notifications",
+    "description": "Laravel package for dynamic notification system.",
+    "autoload": {
+        "psr-4": {
+            "Ataaaksoy\\LaravelBeastyNotifications\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ata AKSOY",
+            "email": "ataaaksoy@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelBeastyNotifications\\Providers\\LaravelBeastyNotificationsServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
