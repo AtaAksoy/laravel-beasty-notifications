@@ -1,6 +1,6 @@
 <?php
 
-namespace Ataaaksoy\LaravelBeastyNotifications\Components;
+namespace Ataaaksoy\LaravelBeastyNotifications\View\Components;
 
 use Closure;
 use Illuminate\Contracts\View\View;

@@ -30,7 +30,7 @@ class BeastyNotificationsServiceProvider extends ServiceProvider
         ], 'laravel-beasty-notifications-assets');
 
         // Register Blade components
-        Blade::component('notification-container', \Ataaaksoy\LaravelBeastyNotifications\Components\NotificationContainer::class);
+        Blade::componentNamespace('Laravel\\Views\\Components', 'nightshade');
     }
 
 }

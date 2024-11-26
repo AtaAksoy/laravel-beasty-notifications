@@ -1,4 +1,4 @@
 <div>
-    <h1>{{ $title }}</h1>
+    <h1>Component works</h1>
     <p>This is a custom Blade component from My Package!</p>
 </div>
