@@ -16,7 +16,10 @@
         "laravel": {
             "providers": [
                 "Ataaaksoy\\LaravelBeastyNotifications\\Providers\\BeastyNotificationsServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "Notification": "Ataaaksoy\\LaravelBeastyNotifications\\Facades\\Notification"
+            }
         }
     },
     "require": {}
