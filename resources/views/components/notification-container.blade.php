@@ -16,9 +16,9 @@
     
         @foreach (session()->get('laravel-beasty-notifications', []) as $notif)
             toasts.push({
-                title: 'Error Toast',
-                content: 'My notification description.',
-                style: 'error',
+                title: '{{ $notif->title }}',
+                content: '{{ $notif->body }}',
+                style: '{{ $notif->type }}',
                 dismissAfter: '3s'
             });
 
